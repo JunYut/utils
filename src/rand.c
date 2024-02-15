@@ -2,8 +2,8 @@
 
 /**
  * @brief Randomly returns a number between INT_MIN and INT_MAX
- * @param n positive to return positive number, negative to return negative
- * 			number
+ * @param n 0 for random, positive to return positive number, negative
+ * 			 to return negative number
 */
 int rand_int(int n)
 {
@@ -14,7 +14,7 @@ int rand_int(int n)
 
 /**
  * @brief Randomly returns 1 or -1
- * @param n positive to return 1, negative to return -1
+ * @param n 0 for random, positive to return 1, negative to return -1
 */
 int rand_sign(int n)
 {
