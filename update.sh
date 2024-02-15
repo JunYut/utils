@@ -5,3 +5,5 @@ make clean
 
 sudo cp include/utils.h /usr/local/include/
 sudo cp libutils.a /usr/local/lib/
+
+echo "Done!\n"

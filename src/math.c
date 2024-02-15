@@ -1,14 +1,20 @@
 # include "../include/utils.h"
 
+/**
+ * @brief Count the number of digits in a number
+ * @return Returns negative digits for negative numbers
+*/
 int	count_digits(int n)
 {
 	int count = 1;
+	int sign = n < 0 ? -1 : 1;
+
 	while (n <= -10 || n >= 10)
 	{
 		n /= 10;
 		count++;
 	}
-	return (count);
+	return (count * sign);
 }
 
 int	power(int base, int exponent)
